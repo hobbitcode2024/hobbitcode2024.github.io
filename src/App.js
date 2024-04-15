@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import PrivacyPolicy from './app/PrivacyPolicy.js';
 import TermsOfService from './app/TermsOfService.js';
 import Home from './app/Home.js';
 
-const Router = process.env.NODE_ENV === 'development' ? BrowserRouter : HashRouter;
+// const Router = process.env.NODE_ENV === 'development' ? BrowserRouter : HashRouter;
+const Router = HashRouter;
 
 function App() {
   return (
