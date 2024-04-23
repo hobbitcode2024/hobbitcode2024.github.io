@@ -7,6 +7,17 @@ export default function Home() {
           <span className="text-white text-3xl font-semibold">HobbitCode</span>
         </div>
         <h3 className="text-xl text-white">Specializing in Website and AI Services</h3>
+        <div className="text-white">
+          <span className="font-semibold">Our services</span>
+          <ul className="flex flex-col justify-items-start">
+            <li>
+              <a href="https://tesla-inventory.com">tesla-inventory.com</a>
+            </li>
+            <li>
+              <a href="https://news.tesla-inventory.com/news">news.tesla-inventory.com/news</a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="flex flex-col gap-2 m-3 text-sm">
