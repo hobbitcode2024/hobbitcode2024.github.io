@@ -36,8 +36,8 @@ export default function Home() {
           <p>© 2024 HobbitCode</p>
         </div>
         <div>
-          <a href="hobbitcode.com/#/terms">Terms of Service</a>
-          <a href="hobbitcode.com/#/privacy">Privacy Policy</a>
+          <a href="https://hobbitcode.com/#/terms">Terms of Service</a>
+          <a href="https://hobbitcode.com/#/privacy">Privacy Policy</a>
         </div>
       </div>
     </div>
