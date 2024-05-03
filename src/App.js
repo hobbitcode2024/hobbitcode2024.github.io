@@ -3,12 +3,16 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './app/Home.js';
+import PrivacyPolicy from './app/PrivacyPolicy.js';
+import TermsOfService from './app/TermsOfService.js';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<TermsOfService />} />
       </Routes>
     </Router>
   );
