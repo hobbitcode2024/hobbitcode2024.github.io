@@ -35,6 +35,9 @@ export default function Home() {
         <div>
           <p>© 2024 HobbitCode</p>
         </div>
+        <div>
+          <p>v2024.05.03</p>
+        </div>
       </div>
     </div>
   );
